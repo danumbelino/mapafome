@@ -1255,9 +1255,8 @@ class App extends Component {
                             <CircularProgress />
                             : <button className="SubmitButton marcar-local" onClick={this.handleClickMap}>
                               Tocada</button>}
-
-                      </fieldset>
-                    </div>
+                      
+                      </div>
                     <figure><center>OU</center></figure>
                     <InserirEndereco
                       alimento={this.state.alimento}
@@ -1273,13 +1272,13 @@ class App extends Component {
 
 
 
-                  </div>
+                </div>
               
-          </div>
+              </div>
                
               }
-          </Paper>
-        </Grid>
+            </Paper>
+          </Grid>
 
 
         <Grid item xs={12} sm={12}>
